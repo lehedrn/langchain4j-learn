@@ -10,6 +10,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>lc4j_01_helloworld</module>
+        <module>lc4j_02_multi_model</module>
     </modules>
     <name>langchain4j maven父工程POM配置</name>
 
@@ -21,7 +22,7 @@
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <langchain4j.version>1.7.1</langchain4j.version>
         <langchain4j-community.version>1.7.1-beta14</langchain4j-community.version>
-        <springboot.version>3.4.5</springboot.version>
+        <springboot.version>3.5.6</springboot.version>
         <!-- <spring-ai.version>1.0.0</spring-ai.version>
         <spring-ai-alibaba.version>1.0.0.2</spring-ai-alibaba.version> -->
         <maven-deploy-plugin.version>3.1.1</maven-deploy-plugin.version>
