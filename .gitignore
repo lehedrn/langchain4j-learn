@@ -1,0 +1,7 @@
+.vscode/java-formatter.xml
+target/
+.classpath
+.project
+.settings/
+.flattened-pom.xml
+application-dev.yaml
