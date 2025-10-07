@@ -5,6 +5,10 @@ spring:
   application:
     name: lc4j_02_multi_model
 
+logging:
+  level:
+    '[dev.langchain4j]': DEBUG
+
 llm:
   dashscope:
     api-key: ${DASHSCOPE_API}

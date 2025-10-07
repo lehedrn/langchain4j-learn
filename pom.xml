@@ -11,6 +11,7 @@
     <modules>
         <module>lc4j_01_helloworld</module>
         <module>lc4j_02_multi_model</module>
+        <module>lc4j_03_bootintegration</module>
     </modules>
     <name>langchain4j maven父工程POM配置</name>
 

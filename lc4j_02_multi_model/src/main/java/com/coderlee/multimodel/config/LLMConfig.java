@@ -41,6 +41,8 @@ public class LLMConfig {
                 .apiKey(this.dashscopeApiKey)
                 .baseUrl(this.dashscopeBaseUrl)
                 .modelName(this.dashscopeDefaultModel)
+                .logRequests(true)
+                .logResponses(true)
                 .build();
     }
 
@@ -58,6 +60,8 @@ public class LLMConfig {
                 .apiKey(this.dashscopeApiKey)
                 .baseUrl(this.dashscopeBaseUrl)
                 .modelName(this.deepseekDefaultModel)
+                .logRequests(true)
+                .logResponses(true)
                 .build();
     }
 }
