@@ -44,6 +44,23 @@
     - `http://localhost:18080/multi-model/qwen/chat?question=你是谁`
     - `http://localhost:18080/multi-model/deepseek/chat?question=你好`
 
+### lc4j_03_bootintegration
+
+`lc4j_03_bootintegration` 是一个展示如何将 LangChain4J 与 Spring Boot 深度集成的模块。该模块的主要功能包括：
+
+- **基本配置**：
+  - 配置 Spring Boot 应用以加载 LangChain4J 核心组件，并实现更高级的功能扩展。
+  - 使用 `application.yml` 或 `application.properties` 文件设置必要的参数（如 API 密钥、模型类型等）。
+
+- **核心功能**：
+  - 提供 RESTful API 接口，允许用户通过 HTTP 请求与深度集成的聊天模型进行交互。
+  - 示例代码中包含了一个低阶API和声明式API的集成方式
+
+- **运行方式**：
+  - 启动 Spring Boot 应用后，访问指定的 REST API 端点（如 `/boot-integration/chat`），即可触发与深度集成模型的交互。
+  - 在浏览器或者 Postman/Apifox 中发送请求：
+    - `http://localhost:18080/popular/chat`
+    - `http://localhost:18080/declarative/chat`
 
 
 ## 快速开始
